@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AeroGearPush-Sw"
-  s.version      = "3.0.0"
+  s.version      = "3.0.7"
   s.summary      = "AeroGear UnifiedPush Client Registration SDK (Swift)."
   s.homepage     = "https://github.com/coco-jam/aerogear-ios-push"
   s.license      = 'Apache License, Version 2.0'

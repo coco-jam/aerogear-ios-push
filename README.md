@@ -147,7 +147,7 @@ If you are interested in monitoring how a push message relates to the usage of y
 
 ```swift
 func application(_ application: UIApplication,
-                 didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+                 didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
     // Send metrics when app is launched due to push notification
     PushAnalytics.sendMetricsWhenAppLaunched(launchOptions: launchOptions)
